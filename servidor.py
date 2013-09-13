@@ -9,7 +9,7 @@ sc, addr = s.accept()
   
 while True:  
       recibido = sc.recv(1024)  
-      if recibido == "quit":  
+      if recibido == "salir":  
          break        
       print "Recibido:", recibido  
       sc.send(recibido)  

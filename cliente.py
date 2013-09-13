@@ -7,7 +7,7 @@ s.connect(("localhost", 8000))
 while True:  
       mensaje = raw_input("> ")  
       s.send(mensaje)  
-      if mensaje == "quit":  
+      if mensaje == "salir":  
          break  
   
 print "adios"  
