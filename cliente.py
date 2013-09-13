@@ -1,5 +1,6 @@
 #encoding:utf-8
-import socket  
+import socket 
+#Hola luu
   
 s = socket.socket()   
 s.connect(("localhost", 8000))  
