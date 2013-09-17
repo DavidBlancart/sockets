@@ -1,9 +1,8 @@
 #encoding:utf-8
 import socket 
-#Hola luu
   
 s = socket.socket()   
-s.connect(("localhost", 8000))  
+s.connect(("localhost", 8000))#Este es el puerto   
   
 while True:  
       mensaje = raw_input("> ")  
